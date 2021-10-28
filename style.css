@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+.time_section {
+    width: 1000px;
+    height: 600px;
+    
+}
+
+.time_header{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 150px;
+    
+}
+.time_button {
+    display:block;
+    padding: 23px 23px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(5, 5, 5);
+    text-transform: uppercase;
+    line-height: 1;
+    border-radius: 50px;
+    cursor: pointer;
+    margin:auto;
+    
+}
+.time_button:hover {
+    filter: grayscale(100%) drop-shadow(5px 5px 10px #666);
+}
