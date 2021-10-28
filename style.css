@@ -6,10 +6,8 @@ html {
     font-family: sans-serif;
 }
 
-.time_section {
-    width: 1000px;
-    height: 600px;
-    
+.time_container {
+    width: 100%;
 }
 
 .time_header{
